@@ -141,7 +141,8 @@ body {
 
 .hero {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 10rem; }
   .hero__details {
     flex-basis: 50%;
     height: min-content;
@@ -175,3 +176,34 @@ body {
     border: 2px solid #3065f8;
     background-color: #3065f8;
     color: #fff; }
+  .btn--accent {
+    padding: 0;
+    color: #3c9f8f;
+    text-decoration: none;
+    border-bottom: 1px solid #3c9f8f;
+    padding: .5rem 0; }
+
+.features {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: #f6f6fe;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 90% 90% 0 0 / 35%;
+  padding: 8rem; }
+  .features__image {
+    flex-basis: 50%; }
+    .features__image img {
+      width: 100%; }
+  .features__details {
+    flex-basis: 50%;
+    height: min-content;
+    padding: 2rem; }
+    .features__details--title {
+      font-size: 3.5rem;
+      font-family: "Raleway", sans-serif;
+      line-height: 1.2;
+      color: #070439; }
+    .features__details--paragraph {
+      font-size: 1.6rem; }

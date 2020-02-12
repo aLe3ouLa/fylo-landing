@@ -1,0 +1,36 @@
+.features {
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+    background-color: $color-light-blue;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 90% 90% 0 0 / 35%;
+
+    padding: 8rem;
+
+    &__image {
+        flex-basis: 50%;
+        img {
+           width: 100%;
+        }
+     }
+
+     &__details {
+        flex-basis: 50%;
+        height: min-content;
+        padding: 2rem;
+  
+        &--title {
+           font-size: 3.5rem;  
+           font-family: $font-family-heading;
+           line-height: 1.2; 
+           color: $color-primary-dark;
+        }
+
+        &--paragraph {
+            font-size: 1.6rem;
+        }
+    }
+ }
